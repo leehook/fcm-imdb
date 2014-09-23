@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/prefs"
+        android:icon="@drawable/preferences"
+        android:showAsAction="ifRoom"
+        android:title="@string/prefs"/>
+
+    <item
+        android:id="@+id/update"
+        android:icon="@drawable/update"
+        android:showAsAction="ifRoom"
+        android:title="@string/aggiorna"/>
+
+    <item
+        android:id="@+id/exit"
+        android:icon="@drawable/exit"
+        android:showAsAction="ifRoom"
+        android:title="@string/esci"/>
+
+</menu>

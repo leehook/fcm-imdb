@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/gazzetta"
+        android:icon="@drawable/gazzetta"
+        android:showAsAction="ifRoom"
+        android:title="@string/gazzetta"/>
+
+    <item
+        android:id="@+id/fantagazzetta"
+        android:icon="@drawable/fantagazzetta"
+        android:showAsAction="ifRoom"
+        android:title="@string/fantagazzetta"/>
+
+    <item
+        android:id="@+id/mediaset"
+        android:icon="@drawable/sportmediaset"
+        android:showAsAction="ifRoom"
+        android:title="@string/mediaset"/>
+
+</menu>

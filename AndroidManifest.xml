@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="it.leehook.fcm"
+    android:installLocation="preferExternal"
+    android:versionCode="1"
+    android:versionName="2.1" >
+
+    <meta name="viewport" content="target-densitydpi=device-dpi" />
+
+    <uses-sdk
+        android:minSdkVersion="7"
+        android:targetSdkVersion="11" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:icon="@drawable/app_icon"
+        android:label="@string/app_name" >
+        <activity
+            android:name=".activities.Splash"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/TabTheme" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activities.FCMActivity"
+            android:configChanges="locale"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".activities.Lega"
+            android:configChanges="locale"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".activities.Extra"
+            android:configChanges="locale"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".activities.Classifica"
+            android:configChanges="locale"
+            android:label="@string/classifica" >
+        </activity>
+        <activity
+            android:name=".activities.Preferences"
+            android:configChanges="locale"
+            android:label="@string/prefs" >
+        </activity>
+        <activity
+            android:name=".activities.Squadre"
+            android:configChanges="locale"
+            android:label="@string/squadre" >
+        </activity>
+        <activity
+            android:name=".activities.Calendario"
+            android:configChanges="locale"
+            android:label="@string/risultati" >
+        </activity>
+        <activity
+            android:name=".activities.Coppa"
+            android:configChanges="locale"
+            android:label="@string/coppa" >
+        </activity>
+        <activity
+            android:name=".activities.InviaFormazione"
+            android:configChanges="locale"
+            android:label="@string/inviaform" >
+        </activity>
+        <activity
+            android:name=".activities.Guestbook"
+            android:configChanges="locale"
+            android:label="@string/guestbook" >
+        </activity>
+        <activity
+            android:name=".activities.ProbabiliFormazioni"
+            android:configChanges="locale"
+            android:label="@string/probabili" >
+        </activity>
+        <activity
+            android:name=".activities.VotiUfficiosi"
+            android:configChanges="locale"
+            android:label="@string/voti" >
+        </activity>
+        <activity
+            android:name=".activities.Statistiche"
+            android:configChanges="locale"
+            android:label="@string/schedina"
+            android:screenOrientation="landscape" >
+        </activity>
+        <!--
+        <service
+            android:name=".services.FormationNotify"
+            android:enabled="true"
+            android:process=":formation_process" >
+        </service>
+        -->
+    </application>
+
+</manifest>

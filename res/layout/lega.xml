@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/campocalcio"
+    android:padding="2dip" >
+
+    <TableLayout
+        android:id="@+id/tableLayout01"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:paddingTop="10dip"
+        android:shrinkColumns="true" >
+
+        <TableRow
+            android:gravity="center"
+            android:padding="2dip" >
+
+            <it.leehook.fcm.buttons.ClassificaBtn
+                android:id="@+id/classificaBtn"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent" />
+
+            <it.leehook.fcm.buttons.SquadraBtn
+                android:id="@+id/squadreBtn"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent" />
+        </TableRow>
+
+        <TableRow
+            android:gravity="center"
+            android:padding="2dip" >
+
+            <it.leehook.fcm.buttons.InviaFormBtn
+                android:id="@+id/inviaFormBtn"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent" />
+
+            <it.leehook.fcm.buttons.CalendarioBtn
+                android:id="@+id/calendarBtn"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent" />
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>

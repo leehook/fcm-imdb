@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="@string/siteCategory" >
+
+        <EditTextPreference
+            android:name="Host Preference"
+            android:defaultValue="http://imalatidelbari.netsons.org"
+            android:key="hostEdit"
+            android:summary="@string/hostSummary"
+            android:title="@string/host" />
+
+        <ListPreference
+            android:key="teamPref"
+            android:summary="@string/teamSummary"
+            android:title="@string/squadra" />
+
+        <EditTextPreference
+            android:name="Invio Formazione"
+            android:defaultValue="invformApp.php"
+            android:key="invioEdit"
+            android:summary="@string/invioSummary"
+            android:title="@string/inviaform" />
+
+        <ListPreference
+            android:defaultValue="2"
+            android:key="firstMatchPref"
+            android:summary="@string/firstMatchSum"
+            android:title="@string/firstMatch" />
+
+        <ListPreference
+            android:defaultValue="37"
+            android:key="lastMatchPref"
+            android:summary="@string/lastMatchSum"
+            android:title="@string/lastMatch" />
+    </PreferenceCategory>
+
+    
+    <PreferenceCategory android:title="@string/probabiliCategory" >
+
+        <EditTextPreference
+            android:name="Url Gazzetta"
+            android:defaultValue="http://www.gazzetta.it/Calcio/prob_form/"
+            android:key="gazzettaEdit"
+            android:summary="@string/gazzettaSummary"
+            android:title="@string/gazzetta" />
+        
+        <EditTextPreference
+            android:name="Url Fantagazzetta"
+            android:defaultValue="http://m.fantagazzetta.com/probabili-formazioni.vbhtml"
+            android:key="fantagazzettaEdit"
+            android:summary="@string/fantagazzettaSummary"
+            android:title="@string/fantagazzetta" />
+        
+        <EditTextPreference
+            android:name="Url Sportmediaset"
+            android:defaultValue="http://www.sportmediaset.mediaset.it/calcio/calcio/2014/articoli/1045240/le-probabili-formazioni-di-serie-a.shtml"
+            android:key="mediasetEdit"
+            android:summary="@string/mediasetSummary"
+            android:title="@string/mediaset" />
+        
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/layoutCategory" >
+
+        <ListPreference
+            android:key="languagePref"
+            android:summary="@string/languageSelect"
+            android:title="@string/language" />
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="cupCheck"
+            android:summary="@string/coppaSummary"
+            android:title="@string/coppa" />
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="notifiche"
+            android:summary="@string/notificheSum"
+            android:title="@string/notifiche" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/dbSummary" />
+
+    <PreferenceCategory android:layout="@layout/pref_summary" >
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="updSerieA"
+            android:summary="@string/serieaSum"
+            android:title="@string/seriea" />
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="updRose"
+            android:summary="@string/roseSum"
+            android:title="@string/rose" />
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="updTabellini"
+            android:summary="@string/tabSum"
+            android:title="@string/tabellini" />
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="clearDb"
+            android:summary="@string/clearDbSummary"
+            android:title="@string/clearDb" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

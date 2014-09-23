@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/seavessi"
+        android:icon="@drawable/seavessiavuto"
+        android:showAsAction="ifRoom"
+        android:title="@string/seavessi"/>
+
+    <item
+        android:id="@+id/schedina"
+        android:icon="@drawable/schedina"
+        android:showAsAction="ifRoom"
+        android:title="@string/schedina"/>
+
+</menu>

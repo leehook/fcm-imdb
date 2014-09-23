@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/sqItem"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <TableRow >
+
+            <TableLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" >
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10dip" >
+
+                    <ImageView
+                        android:id="@+id/logoSq"
+                        android:layout_gravity="left" />
+
+                    <TextView
+                        android:id="@+id/nomeSq"
+                        android:gravity="center"
+                        android:textColor="#FF0000" />
+
+                    <ImageView
+                        android:id="@+id/fotoSq"
+                        android:layout_gravity="right" />
+                </TableRow>
+            </TableLayout>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <TableLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" >
+
+                <TableRow >
+
+                    <TextView
+                        android:gravity="left"
+                        android:text="@string/allenatore"
+                        android:textColor="#AAAAAA" />
+
+                    <TextView android:id="@+id/nomeAllenatore" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        android:gravity="left"
+                        android:text="@string/mail"
+                        android:textColor="#AAAAAA" />
+
+                    <TextView android:id="@+id/mailAllenatore" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        android:gravity="left"
+                        android:text="@string/crediti"
+                        android:textColor="#AAAAAA" />
+
+                    <TextView android:id="@+id/creditiAllenatore" />
+                </TableRow>
+            </TableLayout>
+        </TableRow>
+    </TableLayout>
+
+</RelativeLayout>

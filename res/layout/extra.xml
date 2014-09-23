@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/campocalcio"
+    android:padding="3dip" >
+
+    <TableLayout
+        android:id="@+id/tableLayout02"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:paddingTop="10dip"
+        android:shrinkColumns="true" >
+
+        <TableRow
+            android:gravity="center"
+            android:padding="3dip" >
+
+            <it.leehook.fcm.buttons.StatisticheBtn
+                android:id="@+id/statsBtn"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent" />
+
+            <it.leehook.fcm.buttons.GuestbookBtn
+                android:id="@+id/guestbookBtn"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent" />
+        </TableRow>
+
+        <TableRow
+            android:gravity="center"
+            android:padding="3dip" >
+
+            <it.leehook.fcm.buttons.ProbabiliBtn
+                android:id="@+id/probabiliBtn"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent" />
+
+            <it.leehook.fcm.buttons.VotiUfficiosiBtn
+                android:id="@+id/votiBtn"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent" />
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>

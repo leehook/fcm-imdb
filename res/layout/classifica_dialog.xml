@@ -1,0 +1,111 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/dialog_class"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp" >
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center" >
+
+        <TextView
+            android:gravity="center"
+            android:text="@string/punti"
+            android:textColor="@android:color/white"
+            android:textSize="13sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:gravity="center"
+            android:text="@string/vinte"
+            android:textColor="@android:color/white"
+            android:textSize="13sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:gravity="center"
+            android:text="@string/pareggiate"
+            android:textColor="@android:color/white"
+            android:textSize="13sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:gravity="center"
+            android:text="@string/perse"
+            android:textColor="@android:color/white"
+            android:textSize="13sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:gravity="center"
+            android:text="@string/golfatti"
+            android:textColor="@android:color/white"
+            android:textSize="13sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:gravity="center"
+            android:text="@string/golsubiti"
+            android:textColor="@android:color/white"
+            android:textSize="13sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:gravity="center"
+            android:text="@string/totpunti"
+            android:textColor="@android:color/white"
+            android:textSize="13sp"
+            android:textStyle="bold" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+        android:paddingTop="10dip" >
+
+        <TextView
+            android:id="@+id/puntiCl"
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/vinteCl"
+            android:gravity="center"
+            android:textColor="#088A08"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/pareggiateCl"
+            android:gravity="center"
+            android:textColor="#FFBF00"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/perseCl"
+            android:gravity="center"
+            android:textColor="#FF0000"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/golFattiCl"
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/golSubitiCl"
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/totPuntiCl"
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            android:textSize="12sp" />
+    </TableRow>
+
+</TableLayout>
