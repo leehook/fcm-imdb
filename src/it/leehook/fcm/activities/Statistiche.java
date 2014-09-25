@@ -79,6 +79,7 @@ public class Statistiche extends Activity {
 		switch (item.getItemId()) {
 		case R.id.schedina:
 			webview.clearCache(false);
+			webview.getSettings().setBuiltInZoomControls(true);
 			webview.loadUrl(PreferenceManager.getDefaultSharedPreferences(
 					getBaseContext()).getString(Constants.PREF_HOST,
 					Constants.DEFAULT_HOST)
@@ -86,6 +87,7 @@ public class Statistiche extends Activity {
 			return true;
 		case R.id.seavessi:
 			webview.clearCache(false);
+			webview.getSettings().setBuiltInZoomControls(false);
 			webview.loadUrl(PreferenceManager.getDefaultSharedPreferences(
 					getBaseContext()).getString(Constants.PREF_HOST,
 					Constants.DEFAULT_HOST)
