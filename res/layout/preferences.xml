@@ -60,6 +60,32 @@
             android:title="@string/mediaset" />
         
     </PreferenceCategory>
+    
+     <PreferenceCategory android:title="@string/votiCategory" >
+
+        <EditTextPreference
+            android:name="Url Voti Ufficiosi"
+            android:defaultValue="http://www.pianetafantacalcio.it/Voti_Ufficiosi.asp?TipoVoti=M"
+            android:key="votiEdit"
+            android:summary="@string/votiSummary"
+            android:title="@string/voti" />
+        
+        <EditTextPreference
+            android:name="Url Assist"
+            android:defaultValue="http://www.gazzetta.it/calcio/fantanews/assist/serie-a-2015-16"
+            android:key="assistEdit"
+            android:summary="@string/assistSummary"
+            android:title="@string/assist" />
+        
+        <EditTextPreference
+            android:name="Url Voti Live"
+            android:defaultValue="http://www.fantagazzetta.com/voti-live-serie-A"
+            android:key="liveEdit"
+            android:summary="@string/liveSummary"
+            android:title="@string/live" />
+        
+    </PreferenceCategory>
+    
     <PreferenceCategory android:title="@string/layoutCategory" >
 
         <ListPreference

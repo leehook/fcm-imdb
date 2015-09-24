@@ -23,32 +23,25 @@ import android.widget.ImageButton;
  */
 public class CalendarioBtn extends ImageButton {
 
-	public CalendarioBtn(Context context) {
-		super(context);
-		setButtonSrc(context);
-	}
+    public CalendarioBtn(Context context) {
+	super(context);
+	setButtonSrc(context);
+    }
 
-	public CalendarioBtn(Context context, AttributeSet attrs) {
-		super(context, attrs);
-		setButtonSrc(context);
-	}
+    public CalendarioBtn(Context context, AttributeSet attrs) {
+	super(context, attrs);
+	setButtonSrc(context);
+    }
 
-	private void setButtonSrc(Context context) {
-		Display display = ((WindowManager) context
-				.getSystemService(Context.WINDOW_SERVICE)).getDefaultDisplay();
-		int displayWidth = display.getWidth();
-		int displayHeight = display.getHeight();
-		try {
-			InputStream inputStream = this
-					.getResources()
-					.getAssets()
-					.open("img/buttons/calendario_" + Utils.getLocale(context)
-							+ ".png");
-			setImageBitmap(Bitmap.createScaledBitmap(
-					BitmapFactory.decodeStream(inputStream), displayWidth / 2,
-					displayHeight / 3, true));
-		} catch (IOException e) {
-			Log.e("CalendarioBtn.setImage", e.getMessage(), e);
-		}
+    private void setButtonSrc(Context context) {
+	Display display = ((WindowManager) context.getSystemService(Context.WINDOW_SERVICE)).getDefaultDisplay();
+	int displayWidth = display.getWidth();
+	int displayHeight = display.getHeight();
+	try {
+	    InputStream inputStream = this.getResources().getAssets().open("img/buttons/calendario_" + Utils.getLocale(context) + ".png");
+	    setImageBitmap(Bitmap.createScaledBitmap(BitmapFactory.decodeStream(inputStream), displayWidth / 2, displayHeight / 3, true));
+	} catch (IOException e) {
+	    Log.e("CalendarioBtn.setImage", e.getMessage(), e);
 	}
+    }
 }

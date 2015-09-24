@@ -31,6 +31,7 @@
     <string name="updating">Termino aggiornamento…</string>
     <string name="loading">Caricamento…</string>
     <string name="updatingSerieA">Aggiorno la Serie A</string>
+    <string name="updatingCompetitions">Aggiorno le competizioni</string>
     <string name="updatingSquadre">Aggiorno le squadre</string>
     <string name="updatingTabellini">Aggiorno i tabellini</string>
     <string name="updatingGiornate">Aggiorno le giornate</string>
@@ -56,6 +57,7 @@
     <string name="voti">Voti Ufficiosi</string>
     <string name="siteCategory">Impostazioni sito</string>
     <string name="probabiliCategory">URL Probabili formazioni</string>
+    <string name="votiCategory">URL Voti e Assist</string>
     <string name="layoutCategory">Impostazioni Homepage</string>
     <string name="numSqSummary">Imposta il numero di squadre della tua lega</string>
     <string name="numSq">Numero Squadre</string>
@@ -67,6 +69,9 @@
     <string name="gazzettaSummary">Imposta la url della Gazzetta</string>
     <string name="fantagazzettaSummary">Imposta la url di Fantagazzetta</string>
     <string name="mediasetSummary">Imposta la url di SportMediaset</string>
+    <string name="votiSummary">Imposta la url dei voti ufficiosi</string>
+    <string name="assistSummary">Imposta la url degli assist</string>
+    <string name="liveSummary">Imposta la url dei voti live</string>
     <string name="probCheck">Seleziona per visualizzare il bottone delle probabili formazioni</string>
     <string name="votiCheck">Seleziona per visualizzare il bottone dei voti ufficiosi</string>
     <string name="languageSelect">Seleziona la lingua</string>
